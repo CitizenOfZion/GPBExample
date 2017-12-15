@@ -20,6 +20,7 @@ Then run "make cpp" in this examples directory to build the C++ example. It will
 To run the examples:
 
 $ ./Serialize_obj addressbook.data #To add entries to addressbook
+
 $ ./Deserialize_obj addressbook.data #To display entries in addressbook
-Note that on some platforms you may have to edit the Makefile and remove "-lpthread" from the linker commands (perhaps replacing it with something else).
-We didn't do this automatically because we wanted to keep the example simple.
+
+Note that on some platforms you may have to edit the Makefile and remove "-lpthread" from the linker commands (perhaps replacing it with something else). We didn't do this automatically because we wanted to keep the example simple.
